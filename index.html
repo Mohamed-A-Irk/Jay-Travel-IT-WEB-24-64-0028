@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JAY TOURS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <script src="script.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  
+
+</head>
+
+<body>
+
+  <script>
+    $(document).ready(function () {
+      $(".paragraph").hover(function () {
+        $(".paragraph").css("background-color", "#EFD8FA");
+      }, function () {
+        $(".paragraph").css("background-color", "#FDF3C2");
+        });
+      });
+  </script>
+
+
+
+
+  <div class="header-wrapper">
+    <div class="heading">
+      <h1>JAY TOURS</h1>
+    </div>
+    <div class="navigation-wrapper">
+      <div>
+        <a href="index.html">HOME</a>
+      </div>
+      <div>
+        <a href="about.html">ABOUT</a>
+      </div>
+      <div>
+        <a href="services.html">SERVICES</a>
+      </div>
+      <div>
+        <a href="testimonials.html">TESTIMONIALS</a>
+      </div>
+      <div>
+        <a href="portfolio.html">PORTFOLIO</a>
+      </div>
+      <div>
+        <a href="contacts.html">CONTACTS</a>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div main-image>
+      <img src="main.jpg" width="100%" height="450px" />
+    </div>
+    <div class="top-destination">
+      <div class="sub-heading-one">
+        <h2>TOP DESTINATIONS</h2>
+      </div>
+      <div class="images">
+        <div>
+          <p class="destination">SRI LANKA</p>
+          <img src="Sri Lanka.jpg" height="150px" width="220px" alt="" />
+        </div>
+        <div>
+          <p class="destination">ROME</p>
+          <img src="Rome.jpg" height="150px" width="220px" alt="" />
+        </div>
+        <div>
+          <p class="destination">MOLDIVES</p>
+          <img src="Maldives.jpg" height="150px" width="220px" alt="" />
+        </div>
+        <div>
+          <p class="destination">SWITZERLAND</p>
+          <img src="Switzerland.jpg" height="150px" width="220px" alt="" />
+        </div>
+        <div>
+          <p class="destination">THAILAND</p>
+          <img src="Thailand.jpg" height="150px" width="220px" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="team">
+      <h2>OUR TEAM LEADS</h2>
+    </div>
+    <div class="team-intro">
+      <p>
+        Teamwork is the ability to work together toward a common vision. The
+        ability to direct <br />
+        individual accomplishments toword organizational objectives. It is the
+        fule that allows <br />
+        common people to attain uncommon results.
+      </p>
+    </div>
+    <div class="team-members">
+      <div class="team-members-img&name">
+        <img src="Hugo Silva.jpg" height="450px" alt="" />
+        <h5>Hung Silva</h5>
+      </div>
+      <div class="team-members-img&name">
+        <img src="Imanoli Arias.jpg" height="450px" alt="" />
+        <h5>Imanoli Arias</h5>
+      </div>
+      <div class="team-members-img-name">
+        <img src="Javier Bardem.jpg" height="450px" alt="" />
+        <h5>Javier Bardem</h5>
+      </div>
+    </div>
+  </div>
+  <div class="achievements">
+    <div>
+      <h4>250k +</h4>
+      <h6>HAPPY CLIENTS</h6>
+    </div>
+    <div>
+      <h4>800</h4>
+      <h6>WEEKLY RESERVATIONS</h6>
+    </div>
+    <div>
+      <h4>150</h4>
+      <h6>TRAVEL PARTNERS</h6>
+    </div>
+    <div>
+      <h4>15</h4>
+      <h6>BRANCHES</h6>
+    </div>
+  </div>
+  <div class="feedback">
+    <div>
+      <h2>OVERHEAD FROM TRAVELLERS</h2>
+    </div>
+    <div class="overheads">
+      <div>
+        <h6>Hotel Eucalptus</h6>
+        <p class="country-name">in Greece</p>
+        <p class="paragraph">
+          "We booked Hotel Eucalptus <br />
+          through Jay after reasing a <br />
+          handful of reviews, and it was <br />
+          easily the best decision we made
+        </p>
+        <h6>_more"</h6>
+        <p class="name">-Joyce from Canada</p>
+      </div>
+      <div>
+        <h6>Hotel Inn Resort Batam</h6>
+        <p class="country-name">in Indonesia</p>
+        <p class="paragraph">
+          "Thanks Jay letting me <br />
+          change room without charge <br />
+          and rebate the difference. Nice<br />
+          staffs Agoda and Holiday Inn!"
+        </p>
+        <br />
+        <p class="name andy">-Andy from Singapore</p>
+      </div>
+      <div>
+        <h6>Hotel Granvia Kyota</h6>
+        <p class="country-name">in Japan</p>
+        <p class="paragraph">
+          "Our family was travelling via <br />
+          bullet train between cities in <br />
+          Japan with our luggages-the <br />
+          locstion for this hotel made that
+        </p>
+        <h6>_more"</h6>
+        <p class="name">-Diane from United States</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-us">
+    <h2>CONTACT US</h2>
+    <form class="form" id="myForm" onsubmit="return validateForm ()">
+      <div class="box">
+        <div class="form-control">
+          <input type="text" placeholder="First Name" id="firstname" />
+
+        </div>
+        <div class="form-control">
+          <input type="text" placeholder="Last Name" id="lastname" />
+
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="email" placeholder="E-mail" id="email" />
+      </div>
+
+      <div class="form-control">
+        <input type="number" placeholder="Phone Number" id="phone" />
+      </div>
+
+      <div class="for-subscribe">
+        <input type="checkbox" name="" id="" />
+        Subscribe to our newsletter
+      </div>
+
+      <div>
+        <button type="submit" value="submit">SIGN IN</button>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="footer">
+    <div>
+      <h6>HELP</h6>
+      <ul>
+        <a>Help Center</a><br />
+        <a>FAQs</a><br />
+        <a>Terms of Use</a>
+      </ul>
+    </div>
+    <div>
+      <h6>ABOUT US</h6>
+      <ul>
+        <a>Blog</a><br />
+        <a>Careers</a><br />
+        <br />
+      </ul>
+    </div>
+    <div>
+      <h6>DESTINATIONS</h6>
+      <ul>
+        <a>Countries</a><br />
+        <a>Cities</a><br /><br />
+      </ul>
+    </div>
+    <div>
+      <h6>PARTNER WITH US</h6>
+      <ul>
+        <a>Properties</a><br />
+        <a>Affiliates</a><br /><br />
+      </ul>
+    </div>
+    <div class="loacation">
+      <div class="phone-number">
+        <div class="icon">
+          <i class="fas fa-phone-alt"></i>
+        </div>
+        <div>
+          +94 112 875 965 <br />
+          +94 115 879 568
+        </div>
+      </div>
+      <div class="map">
+        <div class="icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div>
+          N.o:056,<br />
+          Havlock Town,<br />
+          Colombo 05,<br />
+          Sri Lanka
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>
+      Copyright <i class="far fa-copyright"></i> 2020- SLIIT WEB DEVELOPMENT-
+      All rights reserved
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
